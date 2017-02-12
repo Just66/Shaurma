@@ -16,7 +16,7 @@ enum Lavash: Int {
 enum Stuffing: String {
     case Beef = "Beef"
     case Chicken = "Chicken"
-    case RedFish = "Red Fish"
+    case RedFish = "RedFish"
     case Mouse = "Mouse"
     case Beacon = "Beacon"
 }

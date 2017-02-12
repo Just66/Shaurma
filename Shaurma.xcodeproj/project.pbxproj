@@ -13,6 +13,14 @@
 		E67FACD81E50AA9000C34A47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E67FACD61E50AA9000C34A47 /* LaunchScreen.storyboard */; };
 		E67FACE61E50AB5100C34A47 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67FACE51E50AB5100C34A47 /* MainVC.swift */; };
 		E67FACE81E50AC8F00C34A47 /* DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67FACE71E50AC8F00C34A47 /* DropShadow.swift */; };
+		E67FACEA1E50B01D00C34A47 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67FACE91E50B01D00C34A47 /* HeaderView.swift */; };
+		E67FACEC1E50B13100C34A47 /* Shaurma.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67FACEB1E50B13100C34A47 /* Shaurma.swift */; };
+		E67FACEE1E50C5C100C34A47 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67FACED1E50C5C100C34A47 /* DataService.swift */; };
+		E67FACF31E5105B400C34A47 /* ShaurmaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67FACF11E5105B400C34A47 /* ShaurmaCell.swift */; };
+		E67FACF41E5105B400C34A47 /* ShaurmaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E67FACF21E5105B400C34A47 /* ShaurmaCell.xib */; };
+		E67FACF61E510FCB00C34A47 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67FACF51E510FCB00C34A47 /* ReusableView.swift */; };
+		E67FACF81E51109A00C34A47 /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67FACF71E51109A00C34A47 /* NibLoadableView.swift */; };
+		E67FACFA1E51114500C34A47 /* UICollectionView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67FACF91E51114500C34A47 /* UICollectionView+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,16 @@
 		E67FACD41E50AA9000C34A47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E67FACD71E50AA9000C34A47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E67FACD91E50AA9000C34A47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E67FACE51E50AB5100C34A47 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		E67FACE71E50AC8F00C34A47 /* DropShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropShadow.swift; sourceTree = "<group>"; };
+		E67FACE91E50B01D00C34A47 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		E67FACEB1E50B13100C34A47 /* Shaurma.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shaurma.swift; sourceTree = "<group>"; };
+		E67FACED1E50C5C100C34A47 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		E67FACF11E5105B400C34A47 /* ShaurmaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShaurmaCell.swift; sourceTree = "<group>"; };
+		E67FACF21E5105B400C34A47 /* ShaurmaCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShaurmaCell.xib; sourceTree = "<group>"; };
+		E67FACF51E510FCB00C34A47 /* ReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		E67FACF71E51109A00C34A47 /* NibLoadableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
+		E67FACF91E51114500C34A47 /* UICollectionView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,12 @@
 		E67FACCC1E50AA9000C34A47 /* Shaurma */ = {
 			isa = PBXGroup;
 			children = (
+				E67FACE41E50AADA00C34A47 /* Model */,
+				E67FACE31E50AAD100C34A47 /* View */,
+				E67FACE21E50AACD00C34A47 /* Controller */,
+				E67FACE11E50AACA00C34A47 /* Resources */,
+				E67FACE01E50AAC700C34A47 /* Protocols */,
+				E67FACDF1E50AAA100C34A47 /* Extansions */,
 				E67FACCD1E50AA9000C34A47 /* AppDelegate.swift */,
 				E67FACD11E50AA9000C34A47 /* Main.storyboard */,
 				E67FACD41E50AA9000C34A47 /* Assets.xcassets */,
@@ -63,7 +87,56 @@
 			path = Shaurma;
 			sourceTree = "<group>";
 		};
+		E67FACDF1E50AAA100C34A47 /* Extansions */ = {
+			isa = PBXGroup;
+			children = (
+				E67FACF91E51114500C34A47 /* UICollectionView+Ext.swift */,
 			);
+			name = Extansions;
+			sourceTree = "<group>";
+		};
+		E67FACE01E50AAC700C34A47 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E67FACE71E50AC8F00C34A47 /* DropShadow.swift */,
+				E67FACF51E510FCB00C34A47 /* ReusableView.swift */,
+				E67FACF71E51109A00C34A47 /* NibLoadableView.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		E67FACE11E50AACA00C34A47 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E67FACE21E50AACD00C34A47 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E67FACE51E50AB5100C34A47 /* MainVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E67FACE31E50AAD100C34A47 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E67FACF11E5105B400C34A47 /* ShaurmaCell.swift */,
+				E67FACF21E5105B400C34A47 /* ShaurmaCell.xib */,
+				E67FACE91E50B01D00C34A47 /* HeaderView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E67FACE41E50AADA00C34A47 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E67FACEB1E50B13100C34A47 /* Shaurma.swift */,
+				E67FACED1E50C5C100C34A47 /* DataService.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E67FACD81E50AA9000C34A47 /* LaunchScreen.storyboard in Resources */,
+				E67FACF41E5105B400C34A47 /* ShaurmaCell.xib in Resources */,
 				E67FACD51E50AA9000C34A47 /* Assets.xcassets in Resources */,
 				E67FACD31E50AA9000C34A47 /* Main.storyboard in Resources */,
 			);
@@ -140,6 +214,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E67FACCE1E50AA9000C34A47 /* AppDelegate.swift in Sources */,
+				E67FACE81E50AC8F00C34A47 /* DropShadow.swift in Sources */,
+				E67FACEC1E50B13100C34A47 /* Shaurma.swift in Sources */,
+				E67FACF81E51109A00C34A47 /* NibLoadableView.swift in Sources */,
+				E67FACFA1E51114500C34A47 /* UICollectionView+Ext.swift in Sources */,
+				E67FACF61E510FCB00C34A47 /* ReusableView.swift in Sources */,
+				E67FACEE1E50C5C100C34A47 /* DataService.swift in Sources */,
+				E67FACF31E5105B400C34A47 /* ShaurmaCell.swift in Sources */,
+				E67FACE61E50AB5100C34A47 /* MainVC.swift in Sources */,
+				E67FACEA1E50B01D00C34A47 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
