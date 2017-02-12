@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E67FACCE1E50AA9000C34A47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67FACCD1E50AA9000C34A47 /* AppDelegate.swift */; };
+		E67FACD01E50AA9000C34A47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67FACCF1E50AA9000C34A47 /* ViewController.swift */; };
+		E67FACD31E50AA9000C34A47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E67FACD11E50AA9000C34A47 /* Main.storyboard */; };
+		E67FACD51E50AA9000C34A47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E67FACD41E50AA9000C34A47 /* Assets.xcassets */; };
+		E67FACD81E50AA9000C34A47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E67FACD61E50AA9000C34A47 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E67FACCA1E50AA9000C34A47 /* Shaurma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shaurma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E67FACCD1E50AA9000C34A47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E67FACCF1E50AA9000C34A47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E67FACD21E50AA9000C34A47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E67FACD41E50AA9000C34A47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E67FACD71E50AA9000C34A47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E67FACD91E50AA9000C34A47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E67FACC71E50AA9000C34A47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E67FACC11E50AA9000C34A47 = {
+			isa = PBXGroup;
+			children = (
+				E67FACCC1E50AA9000C34A47 /* Shaurma */,
+				E67FACCB1E50AA9000C34A47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E67FACCB1E50AA9000C34A47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E67FACCA1E50AA9000C34A47 /* Shaurma.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E67FACCC1E50AA9000C34A47 /* Shaurma */ = {
+			isa = PBXGroup;
+			children = (
+				E67FACCD1E50AA9000C34A47 /* AppDelegate.swift */,
+				E67FACCF1E50AA9000C34A47 /* ViewController.swift */,
+				E67FACD11E50AA9000C34A47 /* Main.storyboard */,
+				E67FACD41E50AA9000C34A47 /* Assets.xcassets */,
+				E67FACD61E50AA9000C34A47 /* LaunchScreen.storyboard */,
+				E67FACD91E50AA9000C34A47 /* Info.plist */,
+			);
+			path = Shaurma;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E67FACC91E50AA9000C34A47 /* Shaurma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E67FACDC1E50AA9000C34A47 /* Build configuration list for PBXNativeTarget "Shaurma" */;
+			buildPhases = (
+				E67FACC61E50AA9000C34A47 /* Sources */,
+				E67FACC71E50AA9000C34A47 /* Frameworks */,
+				E67FACC81E50AA9000C34A47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shaurma;
+			productName = Shaurma;
+			productReference = E67FACCA1E50AA9000C34A47 /* Shaurma.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E67FACC21E50AA9000C34A47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Dmytro Aprelenko";
+				TargetAttributes = {
+					E67FACC91E50AA9000C34A47 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 73P7ATGLB8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E67FACC51E50AA9000C34A47 /* Build configuration list for PBXProject "Shaurma" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E67FACC11E50AA9000C34A47;
+			productRefGroup = E67FACCB1E50AA9000C34A47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E67FACC91E50AA9000C34A47 /* Shaurma */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E67FACC81E50AA9000C34A47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E67FACD81E50AA9000C34A47 /* LaunchScreen.storyboard in Resources */,
+				E67FACD51E50AA9000C34A47 /* Assets.xcassets in Resources */,
+				E67FACD31E50AA9000C34A47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E67FACC61E50AA9000C34A47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E67FACD01E50AA9000C34A47 /* ViewController.swift in Sources */,
+				E67FACCE1E50AA9000C34A47 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E67FACD11E50AA9000C34A47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E67FACD21E50AA9000C34A47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E67FACD61E50AA9000C34A47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E67FACD71E50AA9000C34A47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E67FACDA1E50AA9000C34A47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E67FACDB1E50AA9000C34A47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E67FACDD1E50AA9000C34A47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 73P7ATGLB8;
+				INFOPLIST_FILE = Shaurma/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Just66.Shaurma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E67FACDE1E50AA9000C34A47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 73P7ATGLB8;
+				INFOPLIST_FILE = Shaurma/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Just66.Shaurma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E67FACC51E50AA9000C34A47 /* Build configuration list for PBXProject "Shaurma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E67FACDA1E50AA9000C34A47 /* Debug */,
+				E67FACDB1E50AA9000C34A47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E67FACDC1E50AA9000C34A47 /* Build configuration list for PBXNativeTarget "Shaurma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E67FACDD1E50AA9000C34A47 /* Debug */,
+				E67FACDE1E50AA9000C34A47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E67FACC21E50AA9000C34A47 /* Project object */;
+}
