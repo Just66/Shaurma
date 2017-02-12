@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		E67FACCE1E50AA9000C34A47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67FACCD1E50AA9000C34A47 /* AppDelegate.swift */; };
-		E67FACD01E50AA9000C34A47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67FACCF1E50AA9000C34A47 /* ViewController.swift */; };
 		E67FACD31E50AA9000C34A47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E67FACD11E50AA9000C34A47 /* Main.storyboard */; };
 		E67FACD51E50AA9000C34A47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E67FACD41E50AA9000C34A47 /* Assets.xcassets */; };
 		E67FACD81E50AA9000C34A47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E67FACD61E50AA9000C34A47 /* LaunchScreen.storyboard */; };
+		E67FACE61E50AB5100C34A47 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67FACE51E50AB5100C34A47 /* MainVC.swift */; };
+		E67FACE81E50AC8F00C34A47 /* DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67FACE71E50AC8F00C34A47 /* DropShadow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E67FACCA1E50AA9000C34A47 /* Shaurma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shaurma.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E67FACCD1E50AA9000C34A47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E67FACCF1E50AA9000C34A47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E67FACD21E50AA9000C34A47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E67FACD41E50AA9000C34A47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E67FACD71E50AA9000C34A47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,13 +55,15 @@
 			isa = PBXGroup;
 			children = (
 				E67FACCD1E50AA9000C34A47 /* AppDelegate.swift */,
-				E67FACCF1E50AA9000C34A47 /* ViewController.swift */,
 				E67FACD11E50AA9000C34A47 /* Main.storyboard */,
 				E67FACD41E50AA9000C34A47 /* Assets.xcassets */,
 				E67FACD61E50AA9000C34A47 /* LaunchScreen.storyboard */,
 				E67FACD91E50AA9000C34A47 /* Info.plist */,
 			);
 			path = Shaurma;
+			sourceTree = "<group>";
+		};
+			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +139,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E67FACD01E50AA9000C34A47 /* ViewController.swift in Sources */,
 				E67FACCE1E50AA9000C34A47 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
